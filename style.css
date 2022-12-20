@@ -1,0 +1,121 @@
+/* MOBILE FIRST */
+* {
+    padding: 0;
+    margin: 0;
+    font-family: 'Open Sans', sans-serif;
+}
+
+body {
+    background-image: url(./images/bg-mobile.svg);
+    background-repeat: no-repeat;
+    background-color: #674bb1;
+}
+
+.huddle-logo {
+    height: 2rem;
+    margin: 2rem;
+}
+
+.huddle-devices {
+    height: 15rem;
+    margin-left: 9%;
+}
+
+.huddle-texts {
+    margin-top: 10%;
+}
+
+.huddle-title,
+.huddle-subtitle {
+    text-align: center;
+    color: #fefffe;    
+    font-weight: 600;
+}
+
+.huddle-description {
+    text-align: center;
+    color: #fefffe;
+    margin-top: 4%;
+    padding-right: 12%;
+    padding-left: 10%;
+    font-weight: 300;
+}
+
+.huddle-register-button {
+    background: #fff;
+    display: flex;
+    margin-top: 5%;
+    margin-left: 8%;
+    padding: .75rem 4rem .75rem 4rem;
+    text-align: center;
+    color: #6958a5;
+    font-weight: 500;
+    font-size: 15px;
+    border: none;
+    border-radius: 1.40rem;
+    cursor: pointer;
+    transition: 600ms;
+}
+
+.huddle-register-button:hover {
+    color: #fff;
+    background: #9382C9;
+    transition: 600ms;
+}
+
+.social-icons {
+    display: flex;
+    justify-content: center;
+    margin: 5rem;
+    height: 20px;
+    cursor: pointer;
+}
+
+.social-icon {
+    margin-right: 1rem;
+}
+
+/* OTHER DEVICES */
+
+@media screen and (min-width: 1000px) {
+    body {
+        background-image: url(./images/bg-desktop.svg);
+        background-repeat: repeat-x;
+        background-color: #674bb1;
+    }
+
+    .huddle-infos {
+        display: flex;
+    }
+
+    .huddle-logo {
+        height: 2rem;
+        margin: 2rem;
+        margin-left: 9%;
+    }
+
+    .huddle-devices {
+        height: 23rem;
+        margin-top: 5%;
+        margin-left: 9%;
+    }
+
+    .huddle-title, 
+    .huddle-subtitle {
+        text-align: left;
+        margin-left: 9%;
+    }
+
+    .huddle-description {
+        text-align: left;
+        color: #fefffe;
+        margin-top: 4%;
+        padding-right: 12%;
+        padding-left: 10%;
+        font-weight: 300;
+    }
+
+    .social-icons {
+        justify-content: end;
+    }
+}

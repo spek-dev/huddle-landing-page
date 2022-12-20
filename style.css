@@ -44,8 +44,7 @@ body {
 .huddle-register-button {
     background: #fff;
     display: flex;
-    margin-top: 5%;
-    margin-left: 8%;
+    margin: 1.5rem auto;
     padding: .75rem 4rem .75rem 4rem;
     text-align: center;
     color: #6958a5;
